@@ -5,6 +5,8 @@
 Implementation of the Bob exercise from Exercism
 http://exercism.io/submissions/08515840c01846adb68851d4f5001895
 
+## Rules
+
 Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 
 Bob answers 'Sure.' if you ask him a question.
@@ -17,12 +19,16 @@ He answers 'Whatever.' to anything else.
 
 ## Build Setup
 
+
 ``` bash
+#clone repo
+git clone the repository and cd into the folder
+
 # install dependencies
-npm install
+run npm install on your terminal to install dependencies
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm run dev to run web server locally
 
 # build for production with minification
 npm run build
